@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://img.freepik.com/premium-photo/front-view-wide-body-passenger-airplane-isolated-white-background_527900-1631.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.blade > img {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    margin-left: 860px;
+}
+
+.blade > img:hover {
+    transform: rotate(90000deg);
+    transition-duration: 60s;
+}
