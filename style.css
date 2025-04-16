@@ -15,3 +15,11 @@ body {
     transform: rotate(90000deg);
     transition-duration: 60s;
 }
+
+@media (max-width: 800px)
+{
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
