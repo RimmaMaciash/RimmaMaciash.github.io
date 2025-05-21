@@ -79,6 +79,7 @@ button > a {
     align-items: center;
     gap: 7px;
     padding: 10px;
+    height: 550px;
 }
 
 .buttons > button {
@@ -89,6 +90,7 @@ button > a {
     font-weight: 600;
     border-radius: 20px;
     color: white;
+    height: 70px;
 }
 
 .buttons > button:hover {
@@ -125,4 +127,39 @@ form > button {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.img > img{
+    height: 50px;
+    width: 50px;
+}
+
+.header > button {
+    background-color: rgb(0, 130, 182);
+    border: 1px solid rgb(0, 130, 182);
+    padding: 10px 25px 10px 25px;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 5px;
+    border-radius: 100px;
+}
+.header > button:hover {
+    background-color: rgb(0, 100, 139);
+    transition: 0.3s;
+    border-color: rgb(0, 100, 139);
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+}
+
+.header > hr {
+    margin: 100px;
+}
+
+iframe {
+    height: 300px;
+    width: 500px;
 }
