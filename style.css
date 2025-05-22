@@ -1,10 +1,11 @@
 * {
     text-decoration: none;
-    color: white;
     font-family: "Play", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-body {
+header {
     background-image: url('abstraktnyi-dizain-fona-s-plavnye-linii.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,8 +17,8 @@ nav > .links {
     align-items: center;
 }
 
-.links {
-    margin: 15px;
+nav > .links {
+    padding: 20px;
 }
 
 .links > a {
@@ -63,6 +64,8 @@ button > a {
 
 .text {
     text-align: center;
+    padding: 359px;
+    color: white;
 }
 
 .cours {
@@ -121,6 +124,7 @@ form > button {
     align-items: center;
     gap: 7px;
     padding: 10px;
+    color: white;
 }
 
 .statistics {
@@ -162,4 +166,59 @@ form > button {
 iframe {
     height: 300px;
     width: 500px;
+}
+
+ .text2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+}
+
+.form {
+    margin-bottom: 100px;
+    padding: 100px;
+    margin-left: 370px;
+}
+
+.text3 {
+    color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+.form > button {
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(24, 24, 24);
+    padding: 5px 20px 5px 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 5px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+}
+.form > button:hover {
+    background-color: rgb(0, 100, 139);
+    transition: 0.3s;
+    border-color: rgb(0, 100, 139);
+    cursor: pointer;
+}
+
+footer {
+    padding: 80px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.form {
+    background-image: url(abstraktnyi-dizain-fona-s-plavnye-linii.jpg);
+    height: 290px;
+    width: 260px;
+    margin-left: 700px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 115, 115);
 }
